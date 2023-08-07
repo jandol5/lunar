@@ -6,7 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-### Fixed
+### Changed
+- when `Product->scheduleCustomerGroup($customerGroups, $startDate = null)` when `$startDate` is `null` it will not set to `now()` and always available
 - fix cart total calculation when pricing.stored_inclusive_of_tax is set to true
 
 ## 0.4
